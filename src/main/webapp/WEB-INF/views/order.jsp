@@ -22,6 +22,10 @@
 			</h2>
 			<div class="span-12 last">
 			    <a href="javascript:history.back()">Back</a> <input id="delete" type="submit" value="Delete" />
+<h3>Invoice</h3>
+<p>Number: <c:out value="${invoice.number}"/></p>
+<p>Description: <c:out value="${invoice.description}"/></p>
+<p>Status: <c:out value="${invoice.status}"/></p>
 			</div>
 		</div>	
 	</body>
